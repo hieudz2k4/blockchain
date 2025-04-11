@@ -1,0 +1,58 @@
+tx = await nft.mintNFT("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "ipfs://bafkreibfmzgbxfmihmrusatyl42jv6xynrqodx7lxrpvhaeofja5nlyswe")
+console.log("NFT minted!");
+await tx.wait();
+const tx = await nft.mintNFT("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "https://gateway.pinata.cloud/ipfs/your_metadata_cid");
+// Địa chỉ nhận có thể là một tài khoản test khác của Hardhat
+const nft = await ethers.getContractAt("HieudzNFT", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+uri = await HieudzNFT.tokenURI(0);
+const uri = await HieudzNFT.tokenURI(0);
+await tx.wait();
+tx = await HieudzNFT.mintNFT("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "https://gateway.pinata.cloud/ipfs/bafkreiawcz6gjj2gr44zhwlv7nx6tmgerdjjnmoonrchgjgp4ctkkq6ou4");
+const tx = await HieudzNFT.mintNFT("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "https://gateway.pinata.cloud/ipfs/bafkreiawcz6gjj2gr44zhwlv7nx6tmgerdjjnmoonrchgjgp4ctkkq6ou4");
+HieudzNFT = await ethers.getContractAt("HieudzNFT", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const HieudzNFT = await ethers.getContractAt("HieudzNFT", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const tokenURI = await HieudzNFT.tokenURI(0);
+console.log("Tổng số NFT đã mint:", totalSupply.toString());
+const totalSupply = await HieudzNFT.totalSupply();
+const HieudzNFT = await ethers.getContractAt("HieudzNFT", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const owner = await myNFT.ownerOf(tokenId);
+const tokenId = 0;
+await tx.wait();
+const tx = await myNFT.mintNFT(recipientAddress, uri);
+const uri = "ipfs://bafkreibfmzgbxfmihmrusatyl42jv6xynrqodx7lxrpvhaeofja5nlyswe";
+const recipientAddress = "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955";
+const myNFT = await ethers.getContractAt("HieudzNFT", contractAddress);
+// Lấy đối tượng hợp đồng
+const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+// Địa chỉ hợp đồng sau khi triển khai
+clear
+console.log("Owner of Token ID", tokenId, "is", owner);
+const owner = await myNFT.ownerOf(tokenId);
+const tokenId = 0;  // Ví dụ bạn biết tokenId là 0 sau khi mint
+clear
+tokenId = receipt.events[0].args.tokenId.toString();
+console.log("Minted Token ID:", tokenId);
+const tokenId = receipt.events[0].args.tokenId.toString();  // Lấy Token ID từ sự kiện mint
+receipt = await tx.wait();
+console.log(receipt);
+const receipt = await tx.wait();
+// Đợi giao dịch hoàn tất và lấy receipt
+const tx = await myNFT.mintNFT("0x14dC79964da2C08b23698B3D3cc7Ca32193d9955", "ipfs://bafkreibfmzgbxfmihmrusatyl42jv6xynrqodx7lxrpvhaeofja5nlyswe");
+// Gọi hàm mintNFT để mint NFT
+console.log("Minted Token ID:", tokenId);
+const tokenId = receipt.events[0].args.tokenId.toString();  // Token ID từ sự kiện mint
+const receipt = await tx.wait();
+await myNFT.mintNFT("0x14dC79964da2C08b23698B3D3cc7Ca32193d9955", "ipfs://bafkreibfmzgbxfmihmrusatyl42jv6xynrqodx7lxrpvhaeofja5nlyswe")
+const myNFT = await MyNFT.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3")
+const MyNFT = await ethers.getContractFactory("HieudzNFT");
+exit
+await myNFT.mintNFT("0x14dC79964da2C08b23698B3D3cc7Ca32193d9955", "ipfs://bafkreibfmzgbxfmihmrusatyl42jv6xynrqodx7lxrpvhaeofja5nlyswe");
+await myNFT.mintNFT("0x14dC79964da2C08b23698B3D3cc7Ca32193d9955", "ipfs://bafkreibfmzgbxfmihmrusatyl42jv6xynrqodx7lxrpvhaeofja5nlyswe"); 
+owner = await HieudzNFT.ownerOf(0)
+const owner = await HieudzNFT.ownerOf(0)
+console.log("Owner of Token ID 0:", owner);
+const owner = await myNFT.ownerOf(0);  // Token ID = 0
+console.log("NFT Minted!");
+await myNFT.mintNFT("0x976EA74026E726554dB657fA54763abd0C3a0aa9", "ipfs://bafkreibfmzgbxfmihmrusatyl42jv6xynrqodx7lxrpvhaeofja5nlyswe");
+const myNFT = await HieudzNFT.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const HieudzNFT = await ethers.getContractFactory("HieudzNFT");
